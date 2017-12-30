@@ -2,7 +2,8 @@
 
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
-//#include "Math/Rotator.h"
+#include "Math/Rotator.h"
+#include "Engine/World.h"
 
 
 // Sets default values for this component's properties
@@ -18,9 +19,10 @@ UOpenDoor::UOpenDoor()
 // Called when the game starts
 void UOpenDoor::BeginPlay()
 {
-
 	Super::BeginPlay();
-	
+
+	// Get the Actor when the game starts
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 // Called every frame
