@@ -11,5 +11,4 @@
 #VS Generated Files
 *.VC.*db*
 *.ipch
-*/.vs/
-*.ipch
+*/.vs
