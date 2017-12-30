@@ -10,3 +10,5 @@
 
 #VS Generated Files
 *.VC.db*
+
+*/.vs/BuildingEscape/v15/ipch/AutoPCH/b9c96a75de21ad27/POSITIONREPORT.ipch
